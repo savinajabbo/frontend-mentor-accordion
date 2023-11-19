@@ -110,7 +110,7 @@ h1, h2, h3 {
 .accordion__question:focus,
 .accordion__question:focus-visible {
     border: none;
-    outline: dashed 1px rgba(0, 0, 0, 0.25);
+    outline: dashed 0.75px rgba(0, 0, 0, 0.15);
 }
 
 .accordion__question.open {
@@ -125,6 +125,10 @@ h1, h2, h3 {
     font-size: 0.75rem;
     line-height: 1.4;
     padding-bottom: 1rem;
+}
+
+.accordion__collapse {
+    transition: height 300ms ease;
 }
 
 .accordion__collapse.collapse{
